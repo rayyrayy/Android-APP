@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:textColor="@color/theme_yellow_text_color" android:gravity="center" android:id="@id/title_text_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="-1" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/theme_yellow_text_color" android:id="@id/label_1" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/expense" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/theme_yellow_expense_text_red" android:gravity="left|center" android:id="@id/expense_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_below="@id/label_1" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/theme_yellow_text_color" android:id="@id/label_2" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/income" android:layout_below="@id/expense_tv" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/theme_yellow_income_text_dark_green" android:gravity="left|center" android:id="@id/income_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_below="@id/label_2" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/theme_yellow_text_color" android:id="@id/label_3" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/balance" android:layout_below="@id/income_tv" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:gravity="left|center" android:id="@id/balance_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_below="@id/label_3" />
+</RelativeLayout>

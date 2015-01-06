@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:background="@color/genaral_color_white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_monthly_budget" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:id="@id/current_monthly_budget_textviw" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <EditText android:id="@id/budget_user_input_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <requestFocus />
+    </EditText>
+</LinearLayout>
