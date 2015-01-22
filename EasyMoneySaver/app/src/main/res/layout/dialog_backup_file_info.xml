@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_root" android:background="@color/genaral_color_white" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:gravity="left" android:id="@id/file_info_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="選擇備份檔案" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/button_row" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="2.0" android:layout_below="@id/file_info_tv">
-        <Button android:textSize="20.0sp" android:textColor="@color/genaral_color_white" android:id="@id/cancel_button" android:background="@drawable/backup_button_bg_selector" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginRight="3.0dip" android:text="取消" android:layout_weight="1.0" />
-        <Button android:textSize="20.0sp" android:textColor="@color/genaral_color_white" android:id="@id/ok_button" android:background="@drawable/backup_button_bg_selector" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="3.0dip" android:text="還原記錄" android:layout_weight="1.0" />
-    </LinearLayout>
-</RelativeLayout>

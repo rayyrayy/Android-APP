@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/fundation_layout" android:background="@color/theme_yellow_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/title_bar" layout="@layout/title_bar_input" />
-    <Button android:id="@id/upload_button" android:layout_width="100.0dip" android:layout_height="70.0dip" android:text="Upload" android:layout_below="@id/title_bar" />
-    <Button android:id="@id/retrieve_button" android:layout_width="100.0dip" android:layout_height="70.0dip" android:text="Retrieve" android:layout_below="@id/upload_button" />
-</RelativeLayout>

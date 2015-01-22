@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_root" android:background="@color/genaral_color_white" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:gravity="center" android:id="@id/message_tv" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="購買Pro版成功!\n請回到桌面並再次打開App以使用Pro版功能 (請勿移除閃電記帳App, 以避免遺失收支記錄, 謝謝)" />
-    <Button android:textColor="@color/genaral_color_white" android:id="@id/ok_button" android:background="@drawable/theme_yellow_button_bg_selector" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="OK" android:layout_below="@id/message_tv" />
-</RelativeLayout>

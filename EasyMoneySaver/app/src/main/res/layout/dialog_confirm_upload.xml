@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_root" android:background="@color/genaral_color_white" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0sp" android:textColor="@color/genaral_color_black" android:gravity="center" android:id="@id/label_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="備份資料到雲端將會覆蓋掉雲端上的記錄, 您確定要繼續嗎?" android:layout_centerHorizontal="true" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/button_row" android:layout_width="fill_parent" android:layout_height="50.0dip" android:weightSum="2.0" android:layout_below="@id/label_tv">
-        <Button android:textColor="@color/genaral_color_black" android:id="@id/cancel_button" android:background="@drawable/theme_yellow_button_bg_selector" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginRight="3.0dip" android:text="取消" android:layout_weight="1.0" />
-        <Button android:textColor="@color/genaral_color_black" android:id="@id/ok_button" android:background="@drawable/theme_yellow_button_bg_selector" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="3.0dip" android:text="確定" android:layout_weight="1.0" />
-    </LinearLayout>
-</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="page_indicator">false</item>
+    <item type="id" name="view_pager">false</item>
+    <item type="id" name="bottom_layout">false</item>
+    <item type="id" name="title_bar">false</item>
+    <item type="id" name="title_text_tv">false</item>
+
+    <item type="id" name="fundation_layout">false</item>
+    <item type="id" name="buttons_box">false</item>
+    <item type="id" name="buttonLayoutLineOne">false</item>
+    <item type="id" name="button_choice_1">false</item>
+    <item type="id" name="button_choice_2">false</item>
+    <item type="id" name="button_choice_3">false</item>
+    <item type="id" name="buttonLayoutLineTwo">false</item>
+    <item type="id" name="button_choice_4">false</item>
+    <item type="id" name="button_choice_5">false</item>
+    <item type="id" name="button_choice_6">false</item>
+    <item type="id" name="buttonLayoutLineThree">false</item>
+    <item type="id" name="button_choice_7">false</item>
+    <item type="id" name="button_choice_8">false</item>
+    <item type="id" name="button_choice_9">false</item>
+
+</resources>
